@@ -1,0 +1,362 @@
+@charset "UTF-8";
+/* CSS Document */
+body, p{
+    font-family: 'Rubik Bubbles', cursive;;
+    background: #252525;
+    color: white;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    font-family: sans-serif;
+    }
+    
+    #creditos{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 14px;
+    position: relative;
+    color: #C9C4C2;
+    }
+
+#logo{
+    position: absolute;
+    top: 35px;
+    left: 90px;
+    width: 500px;
+    height: 60px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    text-align: center;
+    line-height: 80px;
+    }
+
+#icono1 img{
+    position: absolute;
+    top: 60px;
+    right: 92px;
+    width: 30px;
+    height: 30px;
+    }
+#icono2 img{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    width: 30px;
+    height: 30px;
+    }
+#icono3 img{
+    position: absolute;
+    top: 60px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    }
+    
+    #top{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 247px;
+    }
+
+#top ul{
+        width: 1010px;
+        height: 192px;
+        }
+
+#top ul li{
+        float: left;
+        width: 326px;
+        height: 192px; 
+        margin-right: 10px;
+        text-align: center;
+        }
+
+#top ul li img{
+        border-radius: 50%;
+        height: 125px;
+        width: 125px;
+        }
+
+#top ul li h1{
+        font-family: 'Kaushan Script', cursive;
+        }
+
+#top ul li p{
+        font-size: 15px;
+        margin: 10px;   
+        }
+
+
+
+section{
+    border-top:1px solid rgba(133, 146, 158);
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 453px;
+    }
+
+article{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 550px;
+        }
+
+article h1{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 40px;
+        margin: 20px;
+        }
+
+article p{
+        margin: 5px 20px;
+        font-size: 18px;
+        text-align: justify;
+        }
+
+article a{
+        font-size: 17px;
+        color: rgba(133, 146, 158) ;
+        }
+
+article ul{
+        position: relative;
+        left: 30px;
+        font-family: 'Kaushan Script', cursive;
+        }
+
+article .comentario p{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 12px;
+        color: dimgray;
+        }
+
+article .coment p{
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 13px;
+        color: dimgray;
+        border-top:1px solid rgba(133, 146, 158);
+        }
+
+#contacto_mensaje p{
+        text-align: center;
+        }
+
+#contacto_mensaje h1{
+        text-align: center;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        }
+
+article .comp{
+        width: 1000px;
+        border-top:1px solid rgba(133, 146, 158);
+        }
+
+article .linea{
+        border-top:1px solid rgba(133, 146, 158);
+        }
+
+article .inscripcion img{
+        width: 960px ;
+        height: 250px;
+        opacity: 0.8;
+        }
+
+article .inscripcion{
+        width: 1000px ;
+        }
+
+article .inscripcion h1{
+        text-align: center;
+        }
+
+article .inscripcion input{
+        padding: 10px;
+        margin: 20px;
+        width: 300px;
+        }
+
+article .inscripcion input[type="text"]{
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        }
+
+article .inscripcion input[type="password"]{
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        }
+
+article .inscripcion input[type="email"]{
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        }
+
+article .inscripcion input[type="tel"]{
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        }
+
+article .inscripcion input[type="submit"]{
+        width: 170px;
+        background: rgba(133, 146, 158);
+        border: 0;
+        }
+
+article .patrocinio img{
+        width: 200px ;
+        height: 60px;
+        opacity: 0.8;
+        }
+
+article .patrocinio h1{
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 17px;
+        color: gray;
+        }
+
+article img{
+        opacity: 0.8;
+        margin: 20px;
+        }
+
+aside#der{
+        position: absolute;
+        right: 210px;
+        top: 40px;
+        width: 200px; 
+        height: 453px;
+        }
+
+aside#der img{
+        width: 410px;
+        height: 990px;
+        opacity: 0.8;
+        }
+
+aside#derecho{
+        position: absolute;
+        right: 210px;
+        top: 40px;
+        width: 180px; 
+        height: 453px;
+        }
+
+aside#derecho h1{
+        position: absolute;
+        top: 40px;
+        left: 90px;
+        width: 200px; 
+        height: 453px;
+        text-align: center;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        }
+
+aside#derecho img{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: 120px;
+        left: 115px;
+        margin: 5px;
+        }
+
+aside#derecho .logo img{
+        position: relative;
+        width: 280px;
+        height: 280px;
+        top: 170px;
+        left: 40px;
+        margin: 10px;
+        }
+
+#contacto input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #9BA4EC; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #9BA4EC; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+label{
+  display: block; 
+  float: center;  
+}
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;
+  margin-left: 160px; 
+  text-transform: uppercase;
+  background-color: #9BA4EC; 
+  border-color: #9BA4EC; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 125px; 
+  cursor: pointer;
+}
+
+button p{
+  color: #fff; 
+}
+
+span{
+  color: #9BA4EC; 
+}
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+footer{
+    position: relative;
+    margin: 20px auto;
+    left: 0;
+    top: 2000px;
+    width: 1000px;
+    height: 55px;
+    background: rgba(133, 146, 158);
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    }
